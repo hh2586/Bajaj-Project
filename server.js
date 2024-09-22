@@ -8,6 +8,7 @@ const app = express();
 const PORT = process.env.PORT || PORT;
 
 app.use(bodyParser.json());
+app.use(cors());
 
 // POST endpoint
 app.post('/bfhl', (req, res) => {
