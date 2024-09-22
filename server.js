@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const dotenv = require('dotenv');
+const cors = require('cors')
 dotenv.config()
 
 const app = express();
